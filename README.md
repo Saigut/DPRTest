@@ -17,7 +17,7 @@ Used for exchanging ip/port infomation between clients.
 client:  
 The Peer to try Punching Hole with each other.
 
-check_server:__
+check_server:  
 Just for client to send massages, and print the client's ip/port infomation. You can use it or not.
 
 ## Usage
@@ -39,4 +39,4 @@ run:
 
 ```
 
-check_server_ip and client_port both are optional. But if you really want to specify client_port, then the check_server_ip is also needed, you can modify the code to change this limit. 
+*check_server_ip* and *client_port* both are optional. But if you really want to specify client_port, then the check_server_ip is also needed, you can modify the code to change this limit. 
